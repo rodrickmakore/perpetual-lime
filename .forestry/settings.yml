@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5e214a0d83510b001a25ecb2/webhook/forestry
 sections:
+- type: document
+  path: content/document.yml
+  label: Document
+  match: "**/*"
 - type: heading
   label: Settings
 - type: heading
