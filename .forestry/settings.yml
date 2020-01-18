@@ -64,7 +64,7 @@ sections:
   - page
 - type: directory
   path: content/posts
-  label: Posts
+  label: Post
   create: all
   match: "**/*"
   templates:
