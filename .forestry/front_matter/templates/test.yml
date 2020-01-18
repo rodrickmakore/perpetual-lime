@@ -4,27 +4,28 @@ hide_body: false
 fields:
 - name: pricing
   type: field_group_list
+  fields:
+  - name: silver
+    type: text
+    config:
+      required: false
+    label: Silver
+  - name: content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Content
+  - name: url
+    type: text
+    config:
+      required: false
+    label: url
   config:
     min: 
     max: 
-    labelField: 
+    labelField: ''
   label: Pricing
-- name: silver
-  type: text
-  config:
-    required: false
-  label: Silver
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Content
-- name: url
-  type: text
-  config:
-    required: false
-  label: url
