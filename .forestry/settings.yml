@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/document.yml
   label: Document
-  match: "**/*"
 - type: heading
   label: Settings
 - type: heading
