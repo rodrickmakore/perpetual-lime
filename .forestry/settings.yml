@@ -6,6 +6,8 @@ webhook_url: https://api.stackbit.com/project/5e214a0d83510b001a25ecb2/webhook/f
 sections:
 - type: heading
   label: Settings
+- type: heading
+  label: Company
 - type: document
   path: config.yaml
   label: Global Site Config
